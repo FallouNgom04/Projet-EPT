@@ -1,0 +1,219 @@
+.entete {
+    background-color: #e19132;
+    height: 40px;
+    color: white;
+    margin: auto 30px;
+}
+.entete div {
+    display: inline-block;
+    margin: 8px 10px;
+    font-size: 20px;
+}
+
+.nav-item {
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px 25px;
+    padding-bottom: 10px;
+    position: relative; /* Position relative for dropdown */
+}
+
+.nav-item:hover {
+    color: #e19132;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: max-content;    
+    left: 0;                 
+    padding: 0;            
+    margin: 0;              
+    z-index: 10;
+}
+.nav-item:hover .dropdown {
+    display: block;
+}
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo {
+    width: 70px;
+    height: auto;
+}
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+}
+.list-item:hover {
+    background-color: #edd9c1;
+    color: #e19132;
+    transition: 0.3s;
+}
+.trait-nav {
+    height: 4px;
+    width: 90%;
+    background-color: #e19132;
+    margin: auto;
+}
+/*Les Bouttons de connexion*/
+.navbar > .conexion {
+    background-color: #e19132;
+    color: white;
+    border: 1px solid #e19132;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 8px;
+}
+.navbar > .conexion:hover {
+    color: #e19132;
+    background-color: white;
+}
+.navbar > .inscription:hover {
+    color: white;
+    background-color: #e19132;
+}
+.navbar > .inscription {
+    background-color: white;
+    color: #e19132;
+    border: 1px solid #e19132;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 8px;
+}
+.info {
+    margin: 20px 30px;
+}
+.Info i {
+    margin-right: 10px;
+}
+/*Partie Accés*/
+
+.info1 {
+    margin: 20px 30px;
+}
+
+/* Partie Localisation */
+
+.bloc1 {
+    margin: 30px;
+    display: flex;
+    align-items: stretch;
+}
+.bloc1 .bloc2 {
+    width: 50%;
+    height: auto;
+    margin: 0 100px;
+}
+
+.bloc1 > .bloc2 > .itinéraire {
+    padding: 30px 0px;
+}
+
+.bloc1 input {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    padding: 12px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: 2px solid #bfbfbf;
+}
+
+.text {
+    font-size: auto;
+    margin: 20px 30px;
+}
+
+.map {
+    width: 50%;
+    height: auto;
+}
+.bloc1 .button {
+    color: white;
+    background-color: #e19132;
+    border: 1px solid #e19132;
+    border-radius: 4px;
+    padding: 10px 50px;
+    font-size: 15px;
+    margin: 60px 30%;
+}
+.bloc1 .button:hover {
+    background-color: #5f5555;
+    border: #5f5555;
+    color: #e19132;
+}
+
+/*Dernière Partie */
+
+footer{
+    background-color: #e19132;
+    color: white;
+    display: flex;
+    height: 150px;
+    justify-items: center;
+
+}
+.align {
+    display: inline-block;
+    flex-direction: column;
+    margin: 10px 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.logo_ept {
+    width: 80px;
+    height: auto;
+    margin: auto 100px;
+    padding: auto 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.contact {
+    margin-bottom: 0px;
+    font-size: 20px;
+    text-align: left;
+}
+.contact > .information {
+    font-size: 14px;
+    text-align: left;
+    padding-top: 20px;
+}
+.information > div {
+    margin-bottom: 5px;
+}
+.align > .icone {
+    margin: 40px auto;
+}
+.icone i {
+    padding: auto 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.social {
+    margin-top: 10px;
+    margin-right: 70px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.trait {
+    height: 100px;
+    width: 2px;
+    background-color: white;
+    margin: 10px;
+}
+.trait {
+    background-color: white;
+    height: 130px;
+    width: 2px;
+}
