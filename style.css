@@ -30,8 +30,12 @@
     padding: 0;            
     margin: 0;              
     z-index: 10;
+    top: 100%; 
+    padding-top: 26px;
 }
-.nav-item:hover .dropdown {
+
+.nav-item:hover .dropdown,
+.nav-item .dropdown:hover {
     display: block;
 }
 .nav-bar {
@@ -55,11 +59,11 @@
 .list-item:hover {
     background-color: #edd9c1;
     color: #e19132;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 .trait-nav {
     height: 4px;
-    width: 90%;
+    width: 100%;
     background-color: #e19132;
     margin: auto;
 }
@@ -250,5 +254,8 @@ footer{
         margin: 20px 0;
         width: 100%;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
