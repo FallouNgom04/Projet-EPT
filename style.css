@@ -38,6 +38,19 @@
 .nav-item .dropdown:hover {
     display: block;
 }
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+
+body {
+    margin-top: 150px;
+}
+
 .nav-bar {
     display: flex;
     justify-content: flex-end;
